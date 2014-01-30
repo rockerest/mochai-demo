@@ -16,15 +16,16 @@ Follow these steps to install these tools on your `Linux` command line:
 If you don't have `Linux`, you've made a huge mistake, and can follow these steps:
 
 - download a Node.js installer package from [the node.js website](http://nodejs.org/download/)
+- run the Node.js installer package
 - run `npm install -g bower` on your command line of choice
 
 Once Bower has been installed, you need to ask it to install all of the project's dependencies.
-You do this by issuing the command `bower install` in the root directory of the project (where bower.json is).
+You do this by issuing the command `bower install` in the root directory of the project (where `bower.json` is).
 
 This will create a folder called `bower_components` (which you should NOT touch) and install all of the dependencies into the `js/lib` folder.
 
-> Protip:
-> In Sublime Text 3, once you have saved your project, select `Project > Edit Project`.
-> In the first JSON object under the "folders" array, add this line:
-> `"folder_exclude_patterns": ["bower_components"]`
+> Protip:  
+> In Sublime Text 3, once you have saved your project, select `Project > Edit Project`.  
+> In the first JSON object under the "folders" array, add this line:  
+> `"folder_exclude_patterns": ["bower_components"]`  
 > Now you never have to see `bower_components` again!
