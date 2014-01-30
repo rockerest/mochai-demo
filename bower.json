@@ -1,0 +1,19 @@
+{
+  "name": "mochai",
+  "version": "0.0.0",
+  "homepage": "mochai",
+  "authors": [
+    "rockerest <tom@vu>"
+  ],
+  "description": "A mocha / chai demo app",
+  "main": "js/app/bootstrap.js",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

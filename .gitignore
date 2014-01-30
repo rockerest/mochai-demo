@@ -1,0 +1,5 @@
+# package management
+bower_components/*
+
+# lib packages
+js/lib/*
