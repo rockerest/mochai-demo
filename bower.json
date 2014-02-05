@@ -18,7 +18,11 @@
   ],
   "dependencies": {
     "jquery": "1.10.2",
-    "requirejs": "2.1.10",
+    "require": "requirejs#2.1.10",
     "sammy": "~0.7.4"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "chai": "~1.9.0"
   }
 }
