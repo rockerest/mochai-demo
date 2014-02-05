@@ -1,15 +1,19 @@
 define(
-    ["sammy", "ui"],
-    function( Sammy, Ui ){
+    ["sammy", "ui", "content"],
+    function( Sammy, Ui, Content ){
         var Router = {},
             app = new Sammy();
 
         Router.start = function(){
             app.get( "/", function( context ){
-                Ui.updateText( "Welcome!" )
+                Ui.updateText( Content.getContentForPage( "home" ) )
             });
 
-            app.run( "#/" );
+            app.get( "#start", function( context ){
+                Ui.updateText( Content.getContentForPage( "start" ) );
+            });
+
+            app.run( "/" );
         };
 
         return Router;
