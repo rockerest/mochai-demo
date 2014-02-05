@@ -4,13 +4,12 @@ requirejs.config({
         "lib":          "../lib",
 
         "jquery":       ["//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min", "../lib/jquery/jquery.min"],
+
+        "sammy":        "../lib/sammy/lib/sammy"
     },
-    "map":{
-        "*": {
-            "jquery": "jquery.noGlobal",
-        },
-        "jquery.noGlobal": {
-            "jquery": "jquery"
+    "shim": {
+        "sammy": {
+            "deps": ["jquery"]
         }
     }
 });
