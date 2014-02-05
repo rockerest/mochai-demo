@@ -1,11 +1,11 @@
 define(
-    ["jquery"],
-    function( $ ){
+    ["jquery", "router"],
+    function( $, Router ){
         var Init = {};
 
         Init.startApp = function(){
             $(function(){
-                $( "p" ).text( "App Loaded" );
+                Router.start();
             });
         }
 
