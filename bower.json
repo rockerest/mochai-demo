@@ -17,7 +17,7 @@
     "tests"
   ],
   "dependencies": {
-    "jquery": "jquery",
-    "requirejs": "requirejs"
+    "jquery": "1.10.2",
+    "requirejs": "2.1.10"
   }
 }

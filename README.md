@@ -6,7 +6,7 @@ An example of unit testing JS
 Getting Started
 ===============
 
-This project requires Bower for package management which in turn require Node.js.
+This project requires Bower for package management which in turn requires Node.js.
 
 Follow these steps to install these tools on your `Linux` command line:
 
@@ -22,10 +22,4 @@ If you don't have `Linux`, you've made a huge mistake, and can follow these step
 Once Bower has been installed, you need to ask it to install all of the project's dependencies.
 You do this by issuing the command `bower install` in the root directory of the project (where `bower.json` is).
 
-This will create a folder called `bower_components` (which you should NOT touch) and install all of the dependencies into the `js/lib` folder.
-
-> Protip:  
-> In Sublime Text 3, once you have saved your project, select `Project > Edit Project`.  
-> In the first JSON object under the "folders" array, add this line:  
-> `"folder_exclude_patterns": ["bower_components"]`  
-> Now you never have to see `bower_components` again!
+This will install all of the dependencies into the `js/lib` folder.
