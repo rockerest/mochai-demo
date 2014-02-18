@@ -1,9 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <script data-main="js/bootstrap" src="../../lib/require/require"></script>
-    </head>
+        <link rel="stylesheet" href="mocha.css" />
+        <title>Mochai Tests</title>
 
+        <script src="../../lib/mocha/mocha.js"></script>
+        <script src="../../lib/sinon/lib/sinon.js"></script>
+        <!-- Sinon can't load it's own plugins -->
+        <script src="../../lib/sinon/lib/sinon/assert.js"></script>
+        <script src="../../lib/sinon/lib/sinon/match.js"></script>
+        <script src="../../lib/sinon/lib/sinon/call.js"></script>
+        <script src="../../lib/sinon/lib/sinon/collection.js"></script>
+        <script src="../../lib/sinon/lib/sinon/spy.js"></script>
+        <script src="../../lib/sinon/lib/sinon/test_case.js"></script>
+        <script src="../../lib/sinon/lib/sinon/test.js"></script>
+        <script src="../../lib/sinon/lib/sinon/stub.js"></script>
+        <script src="../../lib/sinon/lib/sinon/sandbox.js"></script>
+        <script src="../../lib/sinon/lib/sinon/mock.js"></script>
+        <script src="../../lib/sinon/lib/sinon/util/event.js"></script>
+        <script src="../../lib/sinon/lib/sinon/util/fake_xml_http_request.js"></script>
+        <script src="../../lib/sinon/lib/sinon/util/fake_server.js"></script>
+        <script src="../../lib/sinon/lib/sinon/util/fake_timers.js"></script>
+        <script src="../../lib/sinon/lib/sinon/util/fake_server_with_clock.js"></script>
+        <script src="../../lib/sinon/lib/sinon/util/timers_ie.js"></script>
+        <script src="../../lib/sinon/lib/sinon/util/xhr_ie.js"></script>
+
+        <script data-main="bootstrap" src="../../lib/require/require.js"></script>
+
+    </head>
     <body>
+        <div id="mocha"></div>
+        <div id="testArea">
+            <p></p>
+            <p></p>
+        </div>
     </body>
 </html>
