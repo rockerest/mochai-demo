@@ -6,7 +6,7 @@
     "rockerest <tom@vu>"
   ],
   "description": "A mocha / chai demo app",
-  "main": "js/app/bootstrap.js",
+  "main": "js/app/mochai/bootstrap.js",
   "license": "MIT",
   "private": true,
   "ignore": [
